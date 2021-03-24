@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+#header {
+  display: inline-block;
+  justify-content: left;
+  }
+#navbar {
+  justify-content: left;
+  float: left;
+  margin-right: 5px;
+  border-right: black;
+  border-right-width: 1px;
+  border-right-style: solid;
+  text-align: justify;
+}
+.nav-links {
+    border-radius: 1px;
+    border-right: black;
+    border-width: 1px;
+    border-style: solid;
+    text-align: justify;
+}
+#header-img {
+  width: 100%;
+  justify-content: left;
+}
+#main-doc {
+  display: inline-block;
+  justify-content: right;
+  float: right;
+  max-width: 90%;
+  margin-left: 5px;
+}
+
+li {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: none;
+ }
